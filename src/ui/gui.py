@@ -18,10 +18,10 @@ def main_layout():
     col = []
     i=2 # From action_file
 
-    col.append([sg.T(i, size=(2, 1)), sg.InputText(default_text='No file selected', size=(30, 1), key='-FP-', enable_events=True ), sg.Checkbox('LF', default=True, key='-LF-', enable_events=True), sg.Checkbox('RC', default=False, key='-RF-', enable_events=True)])
+    col.append([sg.T(1, size=(2, 1)), sg.InputText(default_text='No file selected', size=(30, 1), key='-FP-', enable_events=True ), sg.Checkbox('LC', default=True, key='-LF-', enable_events=True), sg.Checkbox('RC', default=False, key='-RF-', enable_events=True)])
     
     while(i < 11):
-        col.append([sg.T(i, size=(2, 1)), sg.InputText(default_text='No file selected', size=(30, 1), key='-FP'+str(i)+'-', enable_events=True), sg.Checkbox('LF', default=True, key='-LF'+str(i)+'-', enable_events=True), sg.Checkbox('RC', default=False, key='-RF'+str(i)+'-', enable_events=True)])
+        col.append([sg.T(i, size=(2, 1)), sg.InputText(default_text='No file selected', size=(30, 1), key='-FP'+str(i)+'-', enable_events=True), sg.Checkbox('LC', default=True, key='-LF'+str(i)+'-', enable_events=True), sg.Checkbox('RC', default=False, key='-RF'+str(i)+'-', enable_events=True)])
         config.ACTION_SETTINGS_KEYS['file_path'+str(i)] = '-FP'+str(i)+'-' #appending new dictionary to json
         config.ACTION_SETTINGS_KEYS['left_click'+str(i)] = '-LF'+str(i)+'-'
         config.ACTION_SETTINGS_KEYS['right_click'+str(i)] = '-RF'+str(i)+'-'
