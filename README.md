@@ -3,7 +3,7 @@ Simple GUI based python mouse clicks automation using image detection built from
 
 # Requirements
 1) Install python
-2) In command prompt, enter:
+2) Install python libraries:
    pip install pyautogui keyboard numpy opencv-python
 
 # How it works
