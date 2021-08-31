@@ -1,5 +1,5 @@
 # Description
-Simple GUI based python mouse clicks automation using image detection built from non-GUI version: https://github.com/well-c/image_autoclicks
+Simple GUI based mouse clicks automation using image detection built from non-GUI version: https://github.com/well-c/image_autoclicks
 
 # Requirements
 1) Install python
