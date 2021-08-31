@@ -4,7 +4,7 @@ Simple GUI based mouse clicks automation using image detection built from non-GU
 # Requirements
 1) Install python
 2) Install python libraries:
-   pip install pyautogui keyboard numpy opencv-python
+   pip install pyautogui keyboard numpy opencv-python tk
 
 # How it works
 1. Dump all your captured images in "input_images" folder
